@@ -1,0 +1,37 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main_box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputs_box {
+  width: 400px;
+  height: 500px;
+  background-color: rgb(254 243 199);
+}
+
+.lists_box {
+  width: 400px;
+  height: 500px;
+  background-color: rgb(254 243 199);
+}
+
+@media (max-width: 1024px) {
+  .main_box {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(12, 8, 30);
+    border-radius: 20px;
+  }
+}
