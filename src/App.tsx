@@ -1,16 +1,12 @@
-import './App.css'
-import TodoBox from './components/TodoBox'
-import TodoList from './components/TodoList'
+import "./App.css";
+import TodoBox from "./components/TodoBox";
 
 function App() {
   return (
-    
-    <div className='main_box'>
-        <TodoBox />
-        <TodoList />
+    <div className="main_box">
+      <TodoBox />
     </div>
-
-  )
+  );
 }
 
-export default App
+export default App;

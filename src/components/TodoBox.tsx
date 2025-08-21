@@ -1,9 +1,11 @@
-import AddButton from "./AddButton";
+import AddComponent from "./addComponent";
+import TodoList from "./TodoList";
 
 const TodoBox = () => {
   return (
-    <div className="inputs_box">
-        <AddButton/>
+    <div className="add_box">
+      <AddComponent/>
+      <TodoList />
     </div>
   );
 };
